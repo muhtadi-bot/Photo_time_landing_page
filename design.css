@@ -1,0 +1,313 @@
+@font-face {
+
+	src: url(./fonts/Gotham\ Rounded\ Book.ttf);
+	font-family: Book;
+}
+
+@font-face {
+
+	src: url(./fonts/Gotham\ Rounded\ Bold.ttf);
+	font-family: Bold;
+}
+
+@font-face {
+
+	src: url(./fonts/Gotham\ Rounded\ Medium.ttf);
+	font-family: Medium;
+}
+
+* {
+	font-family: Book;
+}
+
+.hero-section {
+	background-image: url(./images/background_image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/* height: 745px !important; */
+	color: #fff;
+}
+
+.navigation li a {
+	font-family: Bold;
+	font-size: 18px;
+	color: #fff;
+}
+
+.hero-section .nav_menu {
+	padding: 0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+.hero-text {
+	font-family: Bold;
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero_text h1 {
+	font-size: 24px;
+}
+
+.hero_text h6 {
+	font-size: 10.67px;
+}
+
+
+.hero_button {
+
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #16a085;
+	width: 166px;
+	height: 50px;
+}
+
+.icons {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+footer .download {
+	font-family: Bold;
+
+}
+
+.copyright p {
+	font-family: Bold;
+	font-size: 17px;
+}
+
+.footer_section .download .download_text {
+	font-family: Medium;
+
+}
+
+.icon_title {
+	font-family: Bold;
+	background-color: #1abc9c;
+	color: #fff;
+	font-size: 18px;
+	width: 200px;
+	padding-left: 20px !important;
+	text-align: left;
+	border-radius: 3px 0 0 3px;
+
+}
+
+.platform_icon {
+	background-color: #16a085;
+	color: #fff;
+	font-size: 25px;
+	height: 43px;
+	width: 43px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0 3px 3px 0;
+}
+
+.footer_top {
+	padding-top: 80px !important;
+	padding-bottom: 100px !important;
+}
+
+.platform_buttons {
+	padding-top: 20px;
+}
+
+.photo_logo_1 {
+	display: none;
+}
+
+@media (max-width: 991px) {
+	.navigation li .photo_logo {
+		display: none;
+	}
+
+	.photo_logo_1 {
+		display: block;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		transform: scale(0.8);
+	}
+
+}
+
+.navbar-dark {
+	text-align: center;
+}
+
+
+@media (max-width: 576px) {
+
+	.copyright p {
+		text-align: center;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 387px) {
+
+	.copyright p {
+		text-align: center;
+		font-size: 13px;
+	}
+}
+
+.main_1 {
+    padding-top: 30px;
+	background-color: #f5f6f7;
+}
+
+
+.main_1_description h4 {
+	font-family: Bold;
+	font-size: 20px;
+	color: #16a085;
+	padding-bottom: 45px;
+
+}
+
+.main_1_description p {
+	font-family: Book;
+	line-height: 1.9;
+	padding-bottom: 40px;
+
+}
+
+.main_1_image img {
+	width: 100%;
+}
+
+.community {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.main_3_description h4 {
+	font-family: Bold;
+	font-size: 18px;
+}
+
+.main_3_description p {
+	line-height: 1.9;
+	font-size: 15px;
+}
+
+.community img {
+	padding: 20px;
+}
+
+.car_image img {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.leaves_image img {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.form h4 {
+	font-family: Bold;
+	font-size: 26px;
+	padding-bottom: 20px;
+}
+
+.form .btn {
+	background-color: #16a085;
+	border-radius: 0 3px 3px 0;
+	border: 0;
+}
+
+.form input {
+	border-radius: 3px 0 0 3px;
+	width: 65%
+}
+
+.subscribe {
+	background-image: url(./images/background_2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/* height: 745px; */
+	color: #fff;
+}
+
+.form {
+	height: 745px;
+	text-align: center;
+	padding-top: 350px;
+}
+
+.subscribe .subscribe_background {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.item {
+	display: flex;
+	justify-content: center;
+}
+
+.main_1_image .item img {
+	width: 422px;
+	height: 515px;
+}
+
+@media (max-width: 320px) {
+	.main_1_image .item img {
+		width: 322px;
+		height: 415px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.main_1_image .owl-theme .owl-nav {
+		margin-top: 10px;
+		position: absolute;
+		right: -95px;
+		top: 415px;
+	}
+}
+
+#carousel-1 .owl-theme .owl-nav {
+	margin-top: 10px;
+	position: absolute;
+	top: -45px;
+	right: 0;
+}
+
+@media (max-width: 426px){
+    .main_1_description{
+        text-align: center;
+    }
+}
+
+
+
+
+@media (min-width: 992px){
+    .main_1{
+        position: relative;
+    }
+    
+    .main_1 .main_1_image img {
+        width: 130%;
+        position: absolute;
+        bottom: -28px;
+        right: -28px;
+    }
+}
